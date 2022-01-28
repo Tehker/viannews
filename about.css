@@ -1,5 +1,5 @@
 body {
-    background-image: url(img/hullsunset2020.JPG);
+    background-color: lightgreen;
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
@@ -64,6 +64,10 @@ body {
     position: absolute;
     margin: 180px 0px 0px 270px;
     padding: 10px;
+    border-radius: 5px;
+    background-color: lightcoral;
+    box-shadow: 2px 1px 20px 2px gray;
+    opacity: 90%;
 }
 
 .content .about {
