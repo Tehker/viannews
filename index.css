@@ -1,78 +1,44 @@
 body {
-    background-image: url(img/hullsunset2020.JPG);
-    background-size: cover;
-    background-attachment: fixed;
-    background-size: 50% 100%;
-    margin: 0;
-    padding: 0;
-}
-
-#half {
-    background-color: lightcoral;
-    width: 50%;
-    height: 100%;
-    position: absolute;
+  background-image: url(img/hullsunset2020.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
-    text-align: center;
-    width: 100%;
-    left: 0px;
-    position: absolute;
-    margin-top: 13em;
+  background-color: #000000;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
-.navbar ul {
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    display: inline-block;
+.nav-item {
+  padding: 0 10px;
 }
 
-.navbar li {
-    float: left;
+.container {
+  background-color: #0000006d;
+  color: #ffffff;
+  padding: 2rem 0 2rem 2rem;
+  text-align: center;
+  margin: 10rem 0 0 0rem;
 }
 
-.navbar li a {
-    padding: 14px 16px;
-    color: lightgrey;
-    text-decoration: none;
-    font-size: 1em;
-    display: block;
-    font-family: 'Crimson Text', serif;
+.col-sm-4 {
+  padding: 0 10px;
 }
 
-.navbar a:link {
-    color: black;
-    text-decoration: none;
+.col-sm-4 img {
+  width: 10%;
 }
 
-.navbar a:visited {
-    color: black;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    text-decoration: underline;
-}
-
-.navbar a:active {
-    color: black;
-    text-decoration: none;
-}
-
-.quote {
-    margin: 22em 20px 0px;
-    text-align: center;
-}
-
-#title-quote {
-    font-size: 25px;
-    font-family: 'Crimson Text', serif;
-}
-
-#fav-quote {
-    font-size: 18px;
-    font-family: 'Crimson Text', serif;
-
+.col-sm-4 a {
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
 }
